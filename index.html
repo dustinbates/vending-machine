@@ -29,11 +29,26 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-1 p-1">
+        <div class="col-2 p-1">
           <div>
-            <button class="btn btn-success" onclick="app.moneyController.increaseMoney()">Deposit Quarter</button>
-            <div id="money"></div>
+            <button class="btn btn-success" onclick="app.snacksController.increaseMoney()">Deposit Quarter</button>
           </div>
+        </div>
+        <div class="col-10">
+          <div id="money" class="fs-1">$ 0.00</div>
+        </div>
+        <div class="row" id="snacks">
+
+          <!-- <div class="col-3">
+            <div class="card text-center">
+              <img class="card-img-top" src="//via.placeholder.com/100" alt="Title">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <button class="btn btn-primary">Purchase: $</button>
+              </div>
+            </div>
+          </div> -->
+
         </div>
       </div>
     </div>
